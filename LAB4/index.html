@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>인프밍 영화 정보 사이트</title>
+    <link rel="stylesheet" href="main.css" />
+    <script>
+        let counter = 0;
+        const pageSize = 4;
+        let isLoading = false;
+        let allData = [];
+        let filteredData = null;
+
+        document.addEventListener('DOMContentLoaded', () => {
+            fetch("product.json")
+                .then(response => response.json())
+                .then(data => {
+                    allData = data;
+                    load();
+                });
+        });
+
+        window.onscroll = () => {
+            if (
+                window.innerHeight + window.scrollY >= document.body.offsetHeight - 10 &&
+                !isLoading &&
+                !filteredData
+            ) {
+                load();
+            }
+        };
+
+        function load() {
+            isLoading = true;
+            const source = allData;
+            const sliced = source.slice(counter, counter + pageSize);
+            sliced.forEach(add_data);
+            counter += pageSize;
+            isLoading = false;
+        }
+
+        function add_data(data) {
+            const post = document.createElement("div");
+            post.className = "index-movie-card";
+            post.innerHTML = `
+            <div class="poster-wrapper">
+            <div class="overview-overlay">줄거리: <br />${data.overview}</div>
+            <img src="${data.poster_path}" alt="${data.original_title}" />
+            </div>
+            <div class="movie-title">${data.original_title}</div>
+            <div class="movie-date">${data.release_date}</div>
+            <div class="movie-rate">${data.vote_average}/10</div>
+        `;
+            document.querySelector('.index-movie-info-box').appendChild(post);
+        }
+
+        function onSearch() {
+            const keyword = document.getElementById("search-input").value.trim().toLowerCase();
+            const container = document.querySelector('.index-movie-info-box');
+            container.innerHTML = "";
+            counter = 0;
+
+            if (keyword === "") {
+                filteredData = null;
+                load();
+            } else {
+                filteredData = allData.filter(movie =>
+                    movie.original_title.toLowerCase().includes(keyword)
+                );
+
+                filteredData.forEach(add_data);
+            }
+        }
+        function onSortChange() {
+            const selected = document.querySelector('input[name="sort"]:checked').value;
+            const container = document.querySelector('.index-movie-info-box');
+            container.innerHTML = "";
+
+            let source = filteredData || allData;
+
+            source = [...source];
+
+            switch (selected) {
+                case "rating_desc":
+                    source.sort((a, b) => parseFloat(b.vote_average) - parseFloat(a.vote_average));
+                    break;
+                case "rating_asc":
+                    source.sort((a, b) => parseFloat(a.vote_average) - parseFloat(b.vote_average));
+                    break;
+                case "date_desc":
+                    source.sort((a, b) => new Date(b.release_date) - new Date(a.release_date));
+                    break;
+                case "date_asc":
+                    source.sort((a, b) => new Date(a.release_date) - new Date(b.release_date));
+                    break;
+            }
+            filteredData = source;
+            counter = 0;
+
+            source.forEach(add_data);
+        }
+
+    </script>
+
+
+</head>
+
+<body class="index-index-body">
+    <header class="index-navigation">
+        <h1 class="index-title">인프밍 영화 정보 사이트입니다.</h1>
+    </header>
+
+    <nav class="index-navigation-flex">
+        <div class="index-item"><strong>메인페이지</strong></div>
+        <div class="index-item"><a href="login.html">로그인</a></div>
+        <div class="index-item"><a href="signup.html">회원가입</a></div>
+    </nav>
+
+    <hr id="index-navigation-line" />
+
+    <div class="index-search-box">
+        <input type="text" placeholder="키워드를 입력하세요." id="search-input" />
+        <button onclick="onSearch()">Filter results</button>
+    </div>
+
+    <main class="index-main-flex">
+        <section class="index-movie-flex">
+            <h2>Movies</h2>
+            <hr class="index-line" />
+            <aside class="index-sort-box">
+                <strong>정렬 기준</strong><br />
+
+                <label><input type="radio" name="sort" value="rating_desc" onchange="onSortChange()" />
+                    평점 내림차순</label><br />
+                <label><input type="radio" name="sort" value="rating_asc" onchange="onSortChange()" />
+                    평점 오름차순</label><br />
+                <label><input type="radio" name="sort" value="date_desc" onchange="onSortChange()" />
+                    개봉 내림차순</label><br />
+                <label><input type="radio" name="sort" value="date_asc" onchange="onSortChange()" />
+                    개봉 오름차순</label>
+            </aside>
+            <div class="index-movie-info-box">
+
+            </div>
+
+
+        </section>
+    </main>
+</body>
+
+</html>

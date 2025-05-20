@@ -1,0 +1,142 @@
+[
+    {
+        "original_title": "Titanic",
+        "overview": "84 years later, a 101-year-old woman named Rose DeWitt Bukater tells the story to her granddaughter Lizzy Calvert, Brock Lovett, Lewis Bodine, Bobby Buell and Anatoly Mikailavich on the Keldysh about her life set in April 10th 1912, on a ship called Titanic when young Rose boards the departing ship with the upper-class passengers and her mother, Ruth DeWitt Bukater, and her fiancé, Caledon Hockley. Meanwhile, a drifter and artist named Jack Dawson and his best friend Fabrizio De Rossi win third-class tickets to the ship in a game. And she explains the whole story from departure until the death of Titanic on its first and last voyage April 15th, 1912 at 2:20 in the morning.",
+        "poster_path": "images/Titanic.jpg",
+        "release_date": "1997-11-18",
+        "vote_average": "7.5"
+    },
+    {
+        "original_title": "Harry Potter and the Prisoner of Azkaban",
+        "overview": "Harry, Ron and Hermione return to Hogwarts for another magic-filled year. Harry comes face to face with danger yet again, this time in the form of escaped convict, Sirius Black – and turns to sympathetic Professor Lupin for help.",
+        "poster_path": "images/Harry Potter and the Prisoner of Azkaban.jpg",
+        "release_date": "2004-05-31",
+        "vote_average": "7.7"
+    },
+    {
+        "original_title": "Harry Potter and the Goblet of Fire",
+        "overview": "Harry starts his fourth year at Hogwarts, competes in the treacherous Triwizard Tournament and faces the evil Lord Voldemort. Ron and Hermione help Harry manage the pressure – but Voldemort lurks, awaiting his chance to destroy Harry and all that he stands for.",
+        "poster_path": "images/Harry Potter and the Goblet of Fire.jpg",
+        "release_date": "2005-11-05",
+        "vote_average": "7.5"
+    },
+    {
+        "original_title": "Harry Potter and the Order of the Phoenix",
+        "overview": "Returning for his fifth year of study at Hogwarts, Harry is stunned to find that his warnings about the return of Lord Voldemort have been ignored. Left with no choice, Harry takes matters into his own hands, training a small group of students – dubbed 'Dumbledore's Army' – to defend themselves against the dark arts.",
+        "poster_path": "images/Harry Potter and the Order of the Phoenix.jpg",
+        "release_date": "2007-06-28",
+        "vote_average": "7.4"
+    },
+    {
+        "original_title": "Avatar",
+        "overview": "In the 22nd century, a paraplegic Marine is dispatched to the moon Pandora on a unique mission, but becomes torn between following orders and protecting an alien civilization.",
+        "poster_path": "images/Avatar.jpg",
+        "release_date": "2009-12-10",
+        "vote_average": "7.2"
+    },
+    {
+        "original_title": "Harry Potter and the Deathly Hallows: Part 2",
+        "overview": "Harry, Ron and Hermione continue their quest to vanquish the evil Voldemort once and for all. Just as things begin to look hopeless for the young wizards, Harry discovers a trio of magical objects that endow him with powers to rival Voldemort's formidable skills.",
+        "poster_path": "images/Harry Potter and the Deathly Hallows Part 2.jpg",
+        "release_date": "2011-07-07",
+        "vote_average": "7.9"
+    },
+    {
+        "original_title": "Moneyball",
+        "overview": "The story of Oakland Athletics general manager Billy Beane's successful attempt to put together a baseball team on a budget, by employing computer-generated analysis to draft his players.",
+        "poster_path": "images/Moneyball.jpg",
+        "release_date": "2011-09-22",
+        "vote_average": "7.0"
+    },
+    {
+        "original_title": "The Hunger Games: Catching Fire",
+        "overview": "Katniss Everdeen has returned home safe after winning the 74th Annual Hunger Games along with fellow tribute Peeta Mellark. Winning means that they must turn around and leave their family and close friends, embarking on a \"Victor's Tour\" of the districts. Along the way Katniss senses that a rebellion is simmering, but the Capitol is still very much in control as President Snow prepares the 75th Annual Hunger Games (The Quarter Quell) - a competition that could change Panem forever.",
+        "poster_path": "images/The Hunger Games Catching Fire.jpg",
+        "release_date": "2013-11-15",
+        "vote_average": "7.4"
+    },
+    {
+        "original_title": "Edge of Tomorrow",
+        "overview": "Major Bill Cage is an officer who has never seen a day of combat when he is unceremoniously demoted and dropped into combat. Cage is killed within minutes, managing to take an alpha alien down with him. He awakens back at the beginning of the same day and is forced to fight and die again... and again - as physical contact with the alien has thrown him into a time loop.",
+        "poster_path": "images/Edge of Tomorrow.jpg",
+        "release_date": "2014-05-27",
+        "vote_average": "7.6"
+    },
+    {
+        "original_title": "Mission: Impossible - Rogue Nation",
+        "overview": "Ethan and team take on their most impossible mission yet, eradicating the Syndicate - an International rogue organization as highly skilled as they are, committed to destroying the IMF.",
+        "poster_path": "images/Mission Impossible - Rogue Nation.jpg",
+        "release_date": "2015-07-23",
+        "vote_average": "7.1"
+    },
+    {
+        "original_title": "Star Wars: The Force Awakens",
+        "overview": "Thirty years after defeating the Galactic Empire, Han Solo and his allies face a new threat from the evil Kylo Ren and his army of Stormtroopers.",
+        "poster_path": "images/Star Wars The Force Awakens.jpg",
+        "release_date": "2015-12-15",
+        "vote_average": "7.5"
+    },
+    {
+        "original_title": "Ant-Man",
+        "overview": "Armed with the astonishing ability to shrink in scale but increase in strength, master thief Scott Lang must embrace his inner-hero and help his mentor, Doctor Hank Pym, protect the secret behind his spectacular Ant-Man suit from a new generation of towering threats. Against seemingly insurmountable obstacles, Pym and Lang must plan and pull off a heist that will save the world.",
+        "poster_path": "images/Ant-Man.jpg",
+        "release_date": "2015-07-14",
+        "vote_average": "7.0"
+    },
+    {
+        "original_title": "Guardians of the Galaxy Vol. 2",
+        "overview": "The Guardians must fight to keep their newfound family together as they unravel the mysteries of Peter Quill's true parentage.",
+        "poster_path": "images/Guardians of the Galaxy Vol2.jpg",
+        "release_date": "2017-04-19",
+        "vote_average": "7.6"
+    },
+    {
+        "original_title": "Captain America: Civil War",
+        "overview": "Following the events of Age of Ultron, the collective governments of the world pass an act designed to regulate all superhuman activity. This polarizes opinion amongst the Avengers, causing two factions to side with Iron Man or Captain America, which causes an epic battle between former allies.",
+        "poster_path": "images/Captain America Civil War.jpg",
+        "release_date": "2016-04-27",
+        "vote_average": "7.1"
+    },
+    {
+        "original_title": "Doctor Strange",
+        "overview": "After his career is destroyed, a brilliant but arrogant surgeon gets a new lease on life when a sorcerer takes him under his wing and trains him to defend the world against evil.",
+        "poster_path": "images/Doctor Strange.jpg",
+        "release_date": "2016-10-25",
+        "vote_average": "7.1"
+    },
+    {
+        "original_title": "X-Men: Apocalypse",
+        "overview": "After the re-emergence of the world's first mutant, world-destroyer Apocalypse, the X-Men must unite to defeat his extinction level plan.",
+        "poster_path": "images/X-Men Apocalypse.jpg",
+        "release_date": "2016-05-18",
+        "vote_average": "6.4"
+    },
+    {
+        "original_title": "Inside Out",
+        "overview": "Growing up can be a bumpy road, and it's no exception for Riley, who is uprooted from her Midwest life when her father starts a new job in San Francisco. Like all of us, Riley is guided by her emotions - Joy, Fear, Anger, Disgust and Sadness. The emotions live in Headquarters, the control center inside Riley's mind, where they help advise her through everyday life. As Riley and her emotions struggle to adjust to a new life in San Francisco, turmoil ensues in Headquarters. Although Joy, Riley's main and most important emotion, tries to keep things positive, the emotions conflict on how best to navigate a new city, house and school.",
+        "poster_path": "images/Inside Out.jpg",
+        "release_date": "2015-06-09",
+        "vote_average": "7.9"
+    },
+    {
+        "original_title": "Fantastic Beasts and Where to Find Them",
+        "overview": "In 1926, Newt Scamander arrives at the Magical Congress of the United States of America with a magically expanded briefcase, which houses a number of dangerous creatures and their habitats. When the creatures escape from the briefcase, it sends the American wizarding authorities after Newt, and threatens to strain even further the state of magical and non-magical relations.",
+        "poster_path": "images/Fantastic Beasts and Where to Find Them.jpg",
+        "release_date": "2016-11-16",
+        "vote_average": "7.2"
+    },
+    {
+        "original_title": "Zootopia",
+        "overview": "Determined to prove herself, Officer Judy Hopps, the first bunny on Zootopia's police force, jumps at the chance to crack her first case - even if it means partnering with scam-artist fox Nick Wilde to solve the mystery.",
+        "poster_path": "images/Zootopia.jpg",
+        "release_date": "2016-02-11",
+        "vote_average": "7.7"
+    },
+    {
+        "original_title": "Harry Potter and the Deathly Hallows: Part 1",
+        "overview": "Harry, Ron and Hermione walk away from their last year at Hogwarts to find and destroy the remaining Horcruxes, putting an end to Voldemort's bid for immortality. But with Harry's beloved Dumbledore dead and Voldemort's unscrupulous Death Eaters on the loose, the world is more dangerous than ever.",
+        "poster_path": "images/Harry Potter and the Deathly Hallows Part 1.jpg",
+        "release_date": "2010-10-17",
+        "vote_average": "7.5"
+    }
+]
